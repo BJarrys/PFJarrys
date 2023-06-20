@@ -4,6 +4,10 @@
 @import 'mobile';
 @import 'encabezado';
 
-p {
-    text-align: justify;
+.notfound {
+  width: 100%;
+  text-align: center;
+  img {
+    width: 60%;
+  }
 }
