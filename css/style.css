@@ -59,6 +59,11 @@ header nav ul li {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.nav-linka:hover {
+  background-color: #ECE9CB;
+  font-weight: bolder;
+}
+
 .page-links {
   float: right;
   margin-right: 20px;
@@ -80,6 +85,9 @@ footer .page-links .btn-link {
   color: #50232E;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
+}
+footer .page-links .btn-link:hover {
+  text-decoration: underline;
 }
 footer .logo {
   margin-top: 20px;
@@ -122,6 +130,10 @@ footer .footer-redes span {
 
 .logos-destacados {
   height: 50px;
+}
+
+.logos-destacados:hover {
+  transform: scale(1.5);
 }
 
 .bl {
